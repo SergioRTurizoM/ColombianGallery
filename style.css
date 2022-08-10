@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+}
+
+
+.cuadro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.imagen {
+    max-width: 60%;
+ 
+}
+
+
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: auto;
+    border-radius: 5%;
+}
+
+.anterior {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    background-color: blueviolet;
+    color: aliceblue;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 8rem;
+}
+
+.siguiente {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    background-color: blueviolet;
+    color: aliceblue;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 8rem;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    
+}
+
+button{
+    background-color: blueviolet;
+    color: aliceblue;
+}
